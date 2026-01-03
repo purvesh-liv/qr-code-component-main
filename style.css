@@ -25,6 +25,10 @@ body{
     padding: 10px;
     border-radius: 30px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    animation-name: cardanimation;
+    animation-duration: 2s;
+    animation-fill-mode: backwards;
+    
 }
 .text-main{
     font-family: "outfit";
@@ -41,4 +45,12 @@ body{
     color: hsl(216, 15%, 48%);
     margin-top: 10px;
     margin-bottom: 10px;
+}
+@keyframes cardanimation {
+    from{
+        transform: translateY(20px);
+    }
+    to{
+        transform: translateY(0);
+    }
 }
