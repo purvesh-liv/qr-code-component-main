@@ -9,10 +9,16 @@ body{
 .qr{
     height: 240px;
 }
+.flex-container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+  
+   
+}
 .card{
     background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    max-width: 250px;
-   
+    max-width: 240px;
 }
