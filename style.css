@@ -4,4 +4,15 @@
 }
 body{
     font-size: 15px;
+    background-color: hsl(212, 45%, 89%);
+}
+.qr{
+    height: 240px;
+}
+.card{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+   
 }
